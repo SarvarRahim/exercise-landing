@@ -4,12 +4,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Aer</title>
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+  <!-- HEADER SECTION  -->
+  <div class="wrapper">
+    <header class="site-header container">
+      <div class="site-header__inner">
+        <div class="site-header__top">
+          <button class="site-header__toggler js-site-header__toggler" type="button"></button>
+          <a class="site-header__img-link" href="#">
+            <h2 class="site-header__logo">Aer</h2>
+          </a>
+        </div>
+        <div class="site-header__navigation">
+          <nav class="site-nav site-nav--fancy">
+            <ul class="site-nav__list">
+              <li class="site-nav__list-item site-nav__list-item--active">
+                <a class="site-nav__list-link" href="#">Home</a>
+              </li>
+              <li class="site-nav__list-item">
+                <a class="site-nav__list-link" href="#">Products</a>
+              </li>
+              <li class="site-nav__list-item">
+                <a class="site-nav__list-link" href="#">About</a>
+              </li>
+              <li class="site-nav__list-item">
+                <a class="site-nav__list-link" href="#">Locations</a>
+              </li>
+              <li class="site-nav__list-item">
+                <a class="site-nav__list-link" href="#">Cart</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="site-header__search-form form-search" action="#" method="get">
+            <input class="form-search__input" type="search" name="search">
+            <span class="form-search__icon"></span>
+          </form>
+        </div>
+      </div>
+    </header>
+    
+    <!-- SITE HERO  -->
+    <div class="site-hero">
+      <div class="site-hero__inner container">
+        <div class="site-hero__work">
+          <h2 class="site-hero__work-title">Work anywhere</h2>
+          <p class="site-hero__work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores eum fugit tempore quaerat temporibus explicabo, ratione soluta est quam.</p>
+        </div>
+        <div class="site-hero__work-collection work-collection">
+          <span class="work-collection__order">/<span class="work-collection__order-num">01</span></span>
+          <div class="work-collection__decoration">
+            <div class="work-collection__decoration-size"></div>
+          </div>
+          <h3 class="work-collection__title">Work collection</h3>
+          <p class="work-collection__text">Lorem ipsum dolor sit. <br> Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+
+      <div class="site-hero__slider">
+        <div class="site-hero__slider-content container">
+          <div class="site-hero__slider-events slider-events">
+            <h4 class="slider-events__title">Events</h4>
+            <div class="slider-events__wrapper-events">
+              <div class="slider-events__inner">
+                <p class="slider-events__name">Pop-up @Steven Allan Fillmore</p>
+                <span class="slider-events__location">SF - Sat, August <time datetime="yyyy-mm-dd">12 / 5-6PM</time></span>
+              </div>
+               <div class="slider-events__inner">
+                <p class="slider-events__name">Pop-up @Steven Allan Broklyn</p>
+                <span class="slider-events__location">SF - Sat, August <time datetime="yyyy-mm-dd">12 / 5-6PM</time></span>
+              </div>
+            </div>
+            <div class="site-hero__buttons">
+              <button class="site-hero__button site-hero__button--active" type="button"></button>
+              <button class="site-hero__button" type="button"></button>
+              <button class="site-hero__button" type="button"></button>
+            </div>
+          </div>
+          <article class="site-hero__slider-news slide-news">
+            <img src="https://picsum.photos/400" alt="news photo" width="180" height="180">
+            <div class="slider-news__inner">
+              <h4 class="slider-news__title">News</h4>
+              <p class="slider-news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores voluptatibus soluta molestiae quasi recusandae?</p>
+              <a class="slider-news__link" href="#">Read More</a>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
